@@ -17,5 +17,8 @@
     "rimraf": "^3.0.0",
     "unzipper": "^0.10.5",
     "vinyl": "^2.2.0"
+  },
+  "bin": {
+    "protoc": "./protoc/bin/protoc"
   }
 }
