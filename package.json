@@ -1,13 +1,13 @@
 {
-  "name": "protoc",
-  "version": "1.0.4",
-  "description": "A tool for converting proto buffers (.proto) files into javascript files usable in Closure Compiler with Closure Library.",
+  "name": "protoc-cli",
+  "version": "1.1.0",
+  "description": "Use the protoc command without compiling or manually installing",
   "main": "index.js",
   "scripts": {
     "postinstall": "node scripts/postinstall.js",
     "test": "node scripts/test.js"
   },
-  "author": "Jeppe Rune Mortensen <jepperm@gmail.com>",
+  "author": "Stephen Buchanan",
   "license": "MIT",
   "dependencies": {
     "glob": "^7.1.6",
